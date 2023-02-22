@@ -33,4 +33,17 @@ export class AppComponent {
   GetValuebyParam(name: any) {
     alert(name);
   }
+
+  strName = '';
+  GetValue1(val: any) {
+    console.warn(val);
+    this.strName = val;
+  }
+
+  // number1: any = 0;
+  // number2 = 0;
+  // sum = 0;
+  // calc(num1: any, num2: any) {
+  //   this.sum = parseFloat(num1) + parseFloat(num2);
+  // }
 }
